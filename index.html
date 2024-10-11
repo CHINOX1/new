@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scrip.js"></script>
+    <script src="firebase/firebase.js" type="module"></script>
+
+</head>
+<body>
+    <div>
+    <h1>PELICULAS</h1>
+    <form >
+        <label for=""> nombre </label> <br>
+        <input type="text" placeholder="ingrese nombre de pelicula" id="nombre" name="nombre"> <br>
+        <label for=""> director</label> <br>
+
+        <input type="text" placeholder="ingrese director de la pelicula" id="director" name="director"><br>
+        <label for=""> año</label><br>
+
+        <input type="date" placeholder="ingrese año de la pelicula" id="ano" name="ano"><br>
+        <label for=""> valoracion</label><br>
+
+        <input type="number" placeholder="ingerse valoracion de la pelicula" id="valor" name="valor"><br>
+        <label for=""> genero</label><br>
+
+        <select name="genero" id="genero">
+            <option value="drama">Drama</option>
+            <option value="Accion">Accion</option>
+            <option value="Suspenso">Suspenso</option>
+        </select><br>
+
+        <label for=""> mayor de edad </label> <br>
+        <input type="checkbox" id="mayoredad" name="mayoredad"> es mayor de edad <br>
+        <button type="button" id="btnagregar" value="off"> Registrar</button>
+    </form>
+</div>
+</body>
+
+</html>
+

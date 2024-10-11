@@ -1,0 +1,28 @@
+h1{
+    font-size: 35px;
+}
+body{
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+
+}
+div{
+    width: 30%;
+    height: 500px;
+    background-color: azure;
+    margin-left: 35%;
+    border: solid 10px;
+    border-radius: 30px;
+}
+label{
+    font-size: 25px;
+}
+input{
+    font-size: 20px;
+}
+button{
+    padding: 10px 10px;
+    margin-top: 10px;
+    background-color: aqua;
+}
